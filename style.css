@@ -1,31 +1,22 @@
 body {
-    background-color: bisque;
-    text-align: center; 
-}
-
-
-.naslov {
-    display: flex;
-    justify-content: center;
-}
-
-
-ul, ol {
-    display: inline-block;
     text-align: left;
 }
 
-ul{
-    list-style: disc;
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
 }
 
 
-em {
-    color: blue;
-    font-style: italic;
+li {
+    text-align: left;
 }
 
-strong {
-    color: red;
+.posebno {
+    float: right;
+    display: inline;
     font-weight: bold;
 }
