@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+    text-align: center; 
+}
+
+
+.naslov {
+    display: flex;
+    justify-content: center;
+}
+
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+ul{
+    list-style: disc;
+}
+
+
+em {
+    color: blue;
+    font-style: italic;
+}
+
+strong {
+    color: red;
+    font-weight: bold;
+}
